@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Mongo DB URL 
-const PWD = "peacelily123";
-mongoose.connect(process.env.MONGODB_URI || `mongodb+srv://chloeblackwell:${encodeURIComponent(PWD)}@cluster0.ijkdy.mongodb.net/workout`, {
+const PWD = "";
+mongoose.connect(process.env.MONGODB_URI || ``, {
     useNewUrlParser: true,
     useFindAndModify: false
 });
